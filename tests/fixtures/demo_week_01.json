@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "league_id": 123456,
+  "league_name": "Demo: Great Lakes League",
+  "season": 2026,
+  "week": 1,
+  "completed": true,
+  "settings": {
+    "lineup_slots": {
+      "0": 1,
+      "2": 1,
+      "23": 1
+    },
+    "playoff_team_count": 4,
+    "faab_budget": 100
+  },
+  "teams": [
+    {
+      "id": 1,
+      "name": "Lakefront Legends",
+      "managers": [
+        "Demo Manager 1"
+      ],
+      "rank": 1,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 150,
+      "points_against": 145,
+      "faab_remaining": 75
+    },
+    {
+      "id": 2,
+      "name": "Prairie Fire",
+      "managers": [
+        "Demo Manager 2"
+      ],
+      "rank": 2,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 145,
+      "points_against": 150,
+      "faab_remaining": 100
+    },
+    {
+      "id": 3,
+      "name": "Windy City Wolves",
+      "managers": [
+        "Demo Manager 3"
+      ],
+      "rank": 3,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 120,
+      "points_against": 100,
+      "faab_remaining": 100
+    },
+    {
+      "id": 4,
+      "name": "River Runners",
+      "managers": [
+        "Demo Manager 4"
+      ],
+      "rank": 4,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 100,
+      "points_against": 120,
+      "faab_remaining": 100
+    },
+    {
+      "id": 5,
+      "name": "Gridiron Owls",
+      "managers": [
+        "Demo Manager 5"
+      ],
+      "rank": 5,
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 80,
+      "points_against": 65,
+      "faab_remaining": 100
+    },
+    {
+      "id": 6,
+      "name": "Sunday Stalwarts",
+      "managers": [
+        "Demo Manager 6"
+      ],
+      "rank": 6,
+      "wins": 0,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 65,
+      "points_against": 80,
+      "faab_remaining": 100
+    }
+  ],
+  "matchups": [
+    {
+      "id": "1",
+      "home_team_id": 1,
+      "away_team_id": 2,
+      "home_score": 150,
+      "away_score": 145,
+      "home_projected": 110,
+      "away_projected": 120
+    },
+    {
+      "id": "2",
+      "home_team_id": 3,
+      "away_team_id": 4,
+      "home_score": 120,
+      "away_score": 100,
+      "home_projected": 110,
+      "away_projected": 120
+    },
+    {
+      "id": "3",
+      "home_team_id": 5,
+      "away_team_id": 6,
+      "home_score": 80,
+      "away_score": 65,
+      "home_projected": 110,
+      "away_projected": 120
+    }
+  ],
+  "rosters": [
+    {
+      "team_id": 1,
+      "players": [
+        {
+          "id": 101,
+          "name": "Demo Player 101",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 102,
+          "name": "Demo Player 102",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 103,
+          "name": "Demo Player 103",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 104,
+          "name": "Demo Player 104",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 2,
+      "players": [
+        {
+          "id": 201,
+          "name": "Demo Player 201",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 202,
+          "name": "Demo Player 202",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 203,
+          "name": "Demo Player 203",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 204,
+          "name": "Demo Player 204",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 3,
+      "players": [
+        {
+          "id": 301,
+          "name": "Demo Player 301",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 302,
+          "name": "Demo Player 302",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 303,
+          "name": "Demo Player 303",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 304,
+          "name": "Demo Player 304",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 4,
+      "players": [
+        {
+          "id": 401,
+          "name": "Demo Player 401",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 402,
+          "name": "Demo Player 402",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 403,
+          "name": "Demo Player 403",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 404,
+          "name": "Demo Player 404",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 5,
+      "players": [
+        {
+          "id": 501,
+          "name": "Demo Player 501",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 502,
+          "name": "Demo Player 502",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 503,
+          "name": "Demo Player 503",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 504,
+          "name": "Demo Player 504",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    },
+    {
+      "team_id": 6,
+      "players": [
+        {
+          "id": 601,
+          "name": "Demo Player 601",
+          "score": 30,
+          "projected": 28,
+          "slot_id": 0,
+          "eligible_slots": [
+            0
+          ],
+          "starter": true
+        },
+        {
+          "id": 602,
+          "name": "Demo Player 602",
+          "score": 20,
+          "projected": 18,
+          "slot_id": 2,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 603,
+          "name": "Demo Player 603",
+          "score": 10,
+          "projected": 8,
+          "slot_id": 23,
+          "eligible_slots": [
+            23
+          ],
+          "starter": true
+        },
+        {
+          "id": 604,
+          "name": "Demo Player 604",
+          "score": 35,
+          "projected": 33,
+          "slot_id": 20,
+          "eligible_slots": [
+            2,
+            23
+          ],
+          "starter": false
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "waiver-1",
+      "transaction_id": "waiver-1",
+      "date": "2026-09-09T12:00:00Z",
+      "week": 1,
+      "team_id": 1,
+      "type": "WAIVER",
+      "player_added": 101,
+      "player_dropped": null,
+      "player_name": "Demo Player 101",
+      "faab_bid": 25
+    },
+    {
+      "id": "free-1",
+      "transaction_id": "free-1",
+      "date": "2026-09-10T12:00:00Z",
+      "week": 1,
+      "team_id": 3,
+      "type": "FREE_AGENT",
+      "player_added": 301,
+      "player_dropped": null,
+      "player_name": "Demo Player 301",
+      "faab_bid": 0
+    }
+  ],
+  "availability": {
+    "transactions": true,
+    "projections": true,
+    "rosters": true
+  },
+  "warnings": [
+    "Synthetic demo fixture; not ESPN league data."
+  ]
+}

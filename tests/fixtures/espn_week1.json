@@ -1,0 +1,43 @@
+{
+  "league": {
+    "id": 123,
+    "seasonId": 2026,
+    "scoringPeriodId": 3,
+    "status": {"latestScoringPeriod": 3, "finalScoringPeriod": 18},
+    "settings": {
+      "name": "Fixture League",
+      "scheduleSettings": {"matchupPeriods": {"1": [1], "2": [2], "3": [3]}, "playoffTeamCount": 2},
+      "rosterSettings": {"lineupSlotCounts": {"0": 1, "20": 1, "21": 1}},
+      "acquisitionSettings": {"acquisitionBudget": 100}
+    },
+    "members": [{"id": "owner", "displayName": "Alex"}],
+    "teams": [
+      {"id": 1, "name": "Alpha", "owners": ["owner"], "playoffSeed": 1, "record": {"overall": {"wins": 2, "losses": 0, "ties": 0}}},
+      {"id": 2, "name": "Beta", "playoffSeed": 2, "record": {"overall": {"wins": 0, "losses": 2, "ties": 0}}}
+    ],
+    "schedule": [
+      {"id": 1, "matchupPeriodId": 1, "winner": "HOME", "home": {"teamId": 1, "totalPoints": 100}, "away": {"teamId": 2, "totalPoints": 90}},
+      {"id": 2, "matchupPeriodId": 2, "winner": "HOME", "home": {"teamId": 1, "totalPoints": 80}, "away": {"teamId": 2, "totalPoints": 70}},
+      {"id": 3, "matchupPeriodId": 3, "winner": "UNDECIDED", "home": {"teamId": 1, "totalPoints": 0}, "away": {"teamId": 2, "totalPoints": 0}}
+    ]
+  },
+  "boxscores": {
+    "schedule": [{"id": 1, "matchupPeriodId": 1, "winner": "HOME",
+      "home": {"teamId": 1, "totalPoints": 100, "rosterForCurrentScoringPeriod": {"entries": [
+        {"lineupSlotId": 0, "playerPoolEntry": {"player": {"id": 101, "fullName": "Fixture QB", "eligibleSlots": [0, 20], "stats": [
+          {"seasonId": 2026, "scoringPeriodId": 1, "statSplitTypeId": 1, "statSourceId": 0, "appliedTotal": 25},
+          {"seasonId": 2026, "scoringPeriodId": 1, "statSplitTypeId": 1, "statSourceId": 1, "appliedTotal": 20}
+        ]}}},
+        {"lineupSlotId": 20, "playerPoolEntry": {"player": {"id": 102, "fullName": "Fixture Bench", "eligibleSlots": [0, 20], "stats": []}}}
+      ]}},
+      "away": {"teamId": 2, "totalPoints": 90}
+    }]
+  },
+  "transactions": {"available": true, "transactions": [
+    {"id": "txn1", "teamId": 1, "type": "WAIVER", "status": "EXECUTED", "scoringPeriodId": 1, "processDate": 1789000000000, "bidAmount": 8, "items": [
+      {"type": "ADD", "playerId": 101, "toTeamId": 1, "fromTeamId": -1},
+      {"type": "DROP", "playerId": 103, "toTeamId": -1, "fromTeamId": 1}
+    ]},
+    {"id": "txn2", "teamId": 2, "type": "WAIVER", "status": "FAILED", "scoringPeriodId": 1, "bidAmount": 7, "items": [{"type": "ADD", "playerId": 101}]}
+  ]}
+}

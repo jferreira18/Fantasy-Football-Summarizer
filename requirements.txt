@@ -1,0 +1,2 @@
+# IANA time zones on Windows; application otherwise uses the Python standard library.
+tzdata>=2025.2
